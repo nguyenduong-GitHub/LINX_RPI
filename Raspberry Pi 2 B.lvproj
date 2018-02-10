@@ -11,7 +11,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="LINX_PC.vi" Type="VI" URL="../LINX_PC.vi"/>
-		<Item Name="Test2.vi" Type="VI" URL="../../Test2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AI IRQ FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/IRQ/typedefs/AI IRQ FPGA Reference.ctl"/>
@@ -219,7 +218,6 @@ DirectoryIndex index.htm
 		<Item Name="NEW.vi" Type="VI" URL="../NEW.vi"/>
 		<Item Name="RPI2 Main.vi" Type="VI" URL="../RPI2 Main.vi"/>
 		<Item Name="RPI2 Main_ ADS1115.vi" Type="VI" URL="../RPI2 Main_ ADS1115.vi"/>
-		<Item Name="Untitled 1.vi" Type="VI" URL="../../../DAQ_uA_board/Untitled 1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AD2 Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Digilent/AD2 Toolkit/AD2 Error Handler.vi"/>
@@ -370,6 +368,7 @@ DirectoryIndex index.htm
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="VISA Open Access Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Open Access Mode.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="ADS1015_Get_ADC_Value.vi" Type="VI" URL="../ADS1015_lib/ADS1015_Get_ADC_Value.vi"/>
