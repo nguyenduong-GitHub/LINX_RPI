@@ -12,6 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ADS1015_Current_Monitoring.vi" Type="VI" URL="../ADS1015_Current_Monitoring.vi"/>
 		<Item Name="Arduino_Main.vi" Type="VI" URL="../Arduino/Arduino_Main.vi"/>
+		<Item Name="ESP8266_Scan_IP.vi" Type="VI" URL="../ESP8266/ESP8266_Scan_IP.vi"/>
 		<Item Name="TEST_I2C_ADS1115_ESP8266.vi" Type="VI" URL="../TEST_I2C_ADS1115_ESP8266.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
