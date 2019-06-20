@@ -12,8 +12,16 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ADS1015_Current_Monitoring.vi" Type="VI" URL="../ADS1015_Current_Monitoring.vi"/>
 		<Item Name="Arduino_Main.vi" Type="VI" URL="../Arduino/Arduino_Main.vi"/>
+		<Item Name="Convert_DAC_to_Analog_channel.vi" Type="VI" URL="../DAC_MCP4728/Convert_DAC_to_Analog_channel.vi"/>
+		<Item Name="Drone_AUX_1.vi" Type="VI" URL="../DAC_MCP4728/Drone_AUX_1.vi"/>
+		<Item Name="Drone_AUX_2.vi" Type="VI" URL="../DAC_MCP4728/Drone_AUX_2.vi"/>
 		<Item Name="ESP8266_Scan_IP.vi" Type="VI" URL="../ESP8266/ESP8266_Scan_IP.vi"/>
+		<Item Name="Init_DAC_MCP4728.vi" Type="VI" URL="../DAC_MCP4728/Init_DAC_MCP4728.vi"/>
 		<Item Name="TEST_I2C_ADS1115_ESP8266.vi" Type="VI" URL="../TEST_I2C_ADS1115_ESP8266.vi"/>
+		<Item Name="TEST_MCP4728.vi" Type="VI" URL="../DAC_MCP4728/TEST_MCP4728.vi"/>
+		<Item Name="Untitled 2.vi" Type="VI" URL="../DAC_MCP4728/Untitled 2.vi"/>
+		<Item Name="UPDATE_DAC_VALUES.vi" Type="VI" URL="../DAC_MCP4728/UPDATE_DAC_VALUES.vi"/>
+		<Item Name="WAV_CHART.ctl" Type="VI" URL="../WAV_CHART.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -68,6 +76,7 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Smart Open.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/DIO/VIs/Smart Open.vi"/>
 				<Item Name="Smart Open.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/I2C/VIs/Smart Open.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -78,6 +87,7 @@
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="write.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/DIO/VIs/write.vi"/>
 				<Item Name="write.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/I2C/VIs/write.vi"/>
 			</Item>
 			<Item Name="ADS1015_Get_ADC_Value.vi" Type="VI" URL="../ADS1015_lib/ADS1015_Get_ADC_Value.vi"/>
@@ -104,7 +114,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Release</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{13F42E72-B72E-4057-B8A0-8DE0C3CDD299}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">WDPA.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Release/WDPA.exe</Property>
